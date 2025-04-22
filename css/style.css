@@ -136,10 +136,11 @@ p{
     -moz-transition: all 0.4s ease-in-out 0s;
 }
 
-.whith-btn{
+.white-btn{
+    display: inline-block;
     padding: 0.625rem 1.875rem;
     line-height: 25px;
-    border-color: var(--white-color);
+    background-color: var(--white-color);
     border: 0.1875rem solid var(--white-color);
     color: var(--text-color);
     font-size: 0.9375rem;
@@ -156,7 +157,7 @@ p{
     color: var(--primary-color);
 }
 
-.whith-btn:hover{
+.white-btn:hover{
     border-color: transparent;
     color: var(--primary-color);
     border-color: var(--primary-color);
