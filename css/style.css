@@ -1,5 +1,5 @@
 /* font awesome */
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 *,
 *:after,
@@ -124,7 +124,7 @@ p{
     display: inline-block;
     padding: 0.625rem 1.875rem;
     line-height: 1.5625;
-    border-color: var(--primary-color);
+    background-color: var(--primary-color);
     border: 0.1875rem solid var(--primary-color);
     color: var(--white-color);
     font-size: 0.9375rem;
@@ -152,7 +152,7 @@ p{
 }
 
 .main-btn:hover{
-    border-color: transparent;
+    background-color: transparent;
     color: var(--primary-color);
 }
 
