@@ -3,7 +3,7 @@
 
 *,
 *:after,
-*:befor{
+*:before{
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     margin: 0;
@@ -21,7 +21,7 @@ a:hover{
 }
 
 a:hover{
-    color:var(--black-color) !important
+    color: var( --dark_yellow-color) !important
 }
 
 ul,
@@ -35,7 +35,9 @@ ol{
     --primary-color: #a82c48;
     --secondary-color: #43121d;
     --third-color:#f98169;
+    --dark_yellow-color: #FC9716;
     --white-color: #ffffff;
+    --light-green-color: #6D986D;
     --text-color:#555555;
     --text-gray: #999999;
     --black-color: #000000;
@@ -70,7 +72,7 @@ body{
 }
 
 ::-webkit-scrollbar-thumb{
-    background-color: var(--primary-color);
+    background-color: var(--dark_yellow-color);
 }
 
 /* 
@@ -124,8 +126,8 @@ p{
     display: inline-block;
     padding: 0.625rem 1.875rem;
     line-height: 1.5625;
-    background-color: var(--primary-color);
-    border: 0.1875rem solid var(--primary-color);
+    background-color: var(--dark_yellow-color);
+    border: 0.1875rem solid var(--dark_yellow-color-color);
     color: var(--white-color);
     font-size: 0.9375rem;
     font-weight: 600;
@@ -154,13 +156,13 @@ p{
 
 .main-btn:hover{
     background-color: transparent;
-    color: var(--primary-color);
+    color: var(--dark_yellow-color);
 }
 
 .white-btn:hover{
     border-color: transparent;
-    color: var(--primary-color);
-    border-color: var(--primary-color);
+    color: var(--dark_yellow-color);
+    border-color: var(--dark_yellow-color);
 
 }
 
@@ -206,7 +208,7 @@ p{
     font-size: 0.9375rem;
     font-weight: 600;
     text-transform: capitalize;
-    color: var(--primary-color);
+    color:#402C3F;
     letter-spacing: 1px;
 }
 .navigation-wrap .main-btn{
@@ -214,12 +216,134 @@ p{
     box-shadow: none;
     margin-left: 0.625rem;
 }
-.navigation-wrap.scroll-on{
+.navigation-wrap.on-scroll{
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    border-color: var(--white-color);
-    box-shadow: 0 0.125rem 1.75rem 0 rgb(0, 0, 0, 0.9);
+    background: var(--white-color);
+    box-shadow: 0 0.125rem 1.75rem 0 rgb(0, 0, 0, 0.09);
     transition: all 0.15s ease-in-out 0s;
+}
+/*
+====================================
+        Top banner design
+====================================
+*/
+#food{
+    color: var(--dark_yellow-color) !important;
+}
+.top-banner{
+    width: 100%;
+    height: 100vh;
+    background: url(../images/imgs/foodInRight.jpg) no-repeat top right;
+    background-size:cover;
+    padding: 10rem 0 9.375rem;
+}
+
+/* 
+====================================
+        Counter design
+====================================
+*/
+.counter-section{
+    background-color: var(--dark_yellow-color);
+    padding: 2.5rem 0;
+}
+.counter-section p{
+    color: var(--white-color);
+    text-transform: uppercase;
+}
+
+
+
+
+/* 
+====================================
+        About Section design
+====================================
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+====================================
+        media queries Section
+====================================
+*/
+
+@media (max-width:1024px) {
+    /* about section */
+    
+}
+
+@media (max-width: 991px) {
+    /* custom classes */
+.text-content{
+    width: 100%;
+}
+    /* navbar */
+.navigation-wrap .nav-brand img{
+    height: 3.8125rem;
+}
+.navigation-wrap{
+    text-align: center;
+    background-color: var(--white-color);
+}
+.navigation-wrap .nav-link{
+    line-height: 1.875rem;
+}
+    /* Banner design */
+.top-banner{
+    padding: 9.375rem 0 9.375rem;
+}
+    /* carousel  */
+
+
+}
+
+@media (max-width: 767px) {
+    /* custom css */
+h1{
+    font-size: 2.8rem;
+    line-height: 2.0625;
+}
+
+    /* top banner */
+.top-banner{
+    padding: 10.875rem 0 9.375rem;
+}
+    /* story section */
+
+
+    /* carousel  */
+
+    /* newsletter */
+
+    /* footer link */
+
+}
+
+@media (max-width: 330px) {
+    /* carousel */
+    
 }
