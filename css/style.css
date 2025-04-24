@@ -309,9 +309,20 @@ p{
     font-weight: 900;
  }
 
+/* 
+====================================
+        Story Section design
+====================================
+*/
 
-
-
+.story-section{
+    width: 100%;
+    height: 28.125rem;
+    background: url(../images/imgs/Pizza_on_Dark_Wood.jpg) no-repeat center;
+    background-size: cover;
+    padding-top: 100px;
+    text-align: left;
+}
 
 
 
@@ -379,7 +390,13 @@ h1{
 }
     /* story section */
 
-
+.story-section{
+    height: auto;
+    padding: 3rem 0;
+}
+.story-section p{
+   
+}
     /* carousel  */
 
     /* newsletter */
