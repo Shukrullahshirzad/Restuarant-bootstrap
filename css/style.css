@@ -324,8 +324,35 @@ p{
     text-align: left;
 }
 
-
-
+/* 
+====================================
+    Explore food Section design
+====================================
+*/
+.explore-food .card{
+    border: none;
+    background-color: transparent;
+    border-radius: 0.9375rem;
+} 
+.explore-food .card img{
+    border-radius: 0.9375rem;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.explore-food .card span{
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
+    color: var(--dark_yellow-color);
+    border-bottom: 0.0625rem solid var(--dark_yellow-color);
+}
+.explore-food .card span del{
+    color: var(--text-gray);
+    margin-left: 0.5rem;
+    
+}
 
 
 
@@ -394,9 +421,7 @@ h1{
     height: auto;
     padding: 3rem 0;
 }
-.story-section p{
-   
-}
+
     /* carousel  */
 
     /* newsletter */
