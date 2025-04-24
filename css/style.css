@@ -54,7 +54,7 @@ ol{
 html {
     scroll-behavior: smooth;
     scroll-snap-type: y proximity;
-    scroll-padding: 150px;
+    scroll-padding: 50px;
 }
 
 body{
@@ -66,7 +66,6 @@ section{
     scroll-snap-align: start;
     scroll-snap-stop: always;
 }
-
 /* 
 ========================================
              Custom Scrollbar
@@ -351,15 +350,53 @@ p{
 .explore-food .card span del{
     color: var(--text-gray);
     margin-left: 0.5rem;
-    
+
 }
 
+/* 
+====================================
+    Testimonial Section design
+====================================
+*/
+.testimonial-section{
+    background-color: var(--dark_yellow-color);
 
+}
+.testimonial-section .carousel-item{
+    padding-top: 3rem;
+    padding: 10rem 3.125rem;
+    background-color: var(--white-color);
+    border-radius: 0.9375rem;
+    text-align: center;
+    position: relative;
 
+}
+.testimonial-section .carousel-caption img{
+    margin: auto;
+    max-width: 5rem;
+    border-radius: 50%;
+    padding: 0.3125rem;
+}
+.testimonial-section .carousel-item .carousel-caption p{
+    font-size: 1.3125rem;
+    line-height: 2.0625rem;
+    padding: 0 11% 0.625rem;
 
+}
+.testimonial-section .carousel-indicators{
+   bottom: -2.8125rem; 
+}
+.testimonial-section .carousel-indicators button{
+    width: 15px;
+    height: 15px;
+    outline: none;
+    border-radius: 50%;
+    border: none;
+    margin-right: 1rem;
+    opacity: 0.5;
+    z-index: 100;
 
-
-
+}
 
 
 
