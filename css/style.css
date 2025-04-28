@@ -127,7 +127,7 @@ h5{
 
 p{
     font-size: 1rem;
-    color: var(--text-color);
+    color: var(--black-color);
     font-weight: 400;
     line-height: 1.75rem;
     letter-spacing: 1px;
@@ -317,10 +317,16 @@ p{
 .story-section{
     width: 100%;
     height: 28.125rem;
-    background: url(../images/imgs/Pizza_on_Dark_Wood.jpg) no-repeat center;
-    background-size: cover;
+    background: url(../images/imgs/overloaded-cake-studio.jpg) no-repeat top left;
+    background-size:cover;
     padding-top: 100px;
     text-align: left;
+}
+.story-section p{
+    color: var(--black-color);
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 1.875rem 2.5rem;
+    border-radius: 1rem;
 }
 
 /* 
@@ -378,8 +384,8 @@ p{
     padding: 0.3125rem;
 }
 .testimonial-section .carousel-item .carousel-caption p{
-    font-size: 1.3125rem;
-    line-height: 2.0625rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
     padding: 0 11% 0.625rem;
 
 }
@@ -409,7 +415,7 @@ p{
 }
 .book-food{
     width: 100%;
-    background: url(../images/imgs/foodInRight.jpg) no-repeat center;
+    background: url(../images/imgs/Pizza_on_Dark_Wood.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     background-position: 0 71.9125px ;
@@ -438,6 +444,48 @@ p{
     box-shadow: none;
 
 }
+/* 
+====================================
+            FAQ Section
+====================================
+*/
+.footer{
+    background-color: var(--dark_yellow-color);
+}
+.footer .footer-link{
+    padding: 0.625rem 0;
+    color: var(--white-color);
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.footer a i{
+    font-size: 1.5rem;
+    color: var(--white-color);
+    padding: 0 1rem;
+}
+.footer a i:hover{
+    color: var(--primary-color);
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.2);
+}
+.footer p a{
+    color: var(--white-color);
+    font-weight: 700;
+    text-decoration: underline;
+}
+.footer p a:hover{
+    color: var(--black-color)!important;
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.2);
+
+}
+
+
+
+
+
+
 
 /* 
 ====================================
