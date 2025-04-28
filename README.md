@@ -6,7 +6,7 @@ Welcome to the official repository for the restaurant website built using **Boot
 
 You can check out the live version of the website by visiting the following link:
 
-[Restaurant Website Live Demo](https://shukrullahshirzad.github.io/Restuarant-bootstrap/)
+[Restaurant Website Live Demo](https://github.com/Shukrullahshirzad/Restuarant-bootstrap/blob/main/images/imgs/Restuarant.png)
 
 ## Screenshot
 
