@@ -21,7 +21,7 @@ a:hover{
 }
 
 a:hover{
-    color: var( --dark_yellow-color) !important
+    color: var( --primary-color) !important
 }
 
 ul,
