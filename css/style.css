@@ -202,6 +202,7 @@ p{
     position: fixed;
     width: 100%;
     left: 0;
+    background-color: hsla(59, 87%, 56%, 0.671);
     z-index: 1000;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
@@ -233,7 +234,7 @@ p{
     top: 0;
     left: 0;
     width: 100%;
-    background: var(--white-color);
+    background: var(--dark_yellow-color);
     box-shadow: 0 0.125rem 1.75rem 0 rgb(0, 0, 0, 0.09);
     transition: all 0.15s ease-in-out 0s;
 }
